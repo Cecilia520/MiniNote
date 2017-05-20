@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery小应用</title>
+	<meta charset=utf-8>
+	<meta name=description content="index.html">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<h1>我的Mini-Note</h1>
+<div class="msg">
+    <span class="msg-content"></span>
+    <span class="anchor confirmed">知道了</span>
+</div>
+<!-- 总容器开始部分 -->
+<div class="container">
+<!-- 清单列表 -->
+	<div class="add-task">
+		<form class="add-task">
+        <input name="content"
+               type="text"
+               placeholder="例如:今天记得学习英语"
+               autofocus
+               autocomplete="off"
+        >
+        <button type="submit">submit</button>
+	<!-- 任务列表 -->
+	<div class="task-list">
+		<!-- 任务详情 -->
+		<!-- <div class="task-item"> -->
+		<!-- 任务内容 -->
+		<!-- 	<span><input type="checkbox"></span>
+			<span class="task-content">item content 1</span>
+			<span>
+				<span>delete</span>
+				<span>detail</span>	
+			</span>
+		</div> -->
+	</div>
+	<!-- 相关细节 -->
+	<div class="task-detail-mask"></div>
+	<div class="task-detail">
+<!-- 		<div class="content"></div>
+		今天记得学习英语！
+		<div>		 -->
+			<!-- 任务描述 -->
+<!-- 			<div class="description">
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+		</div> -->
+		<!-- 任务提醒 -->
+<!-- 		<div class="remind">
+			<input type="date">
+			<button type="submit">submit</button>
+		</div> -->
+	</div>
+</div><!-- 总容器结束部分-->
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.datetimepicker.full.js"></script>
+<script src="js/store.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>
